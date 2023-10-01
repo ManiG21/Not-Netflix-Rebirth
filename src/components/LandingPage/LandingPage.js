@@ -31,9 +31,11 @@ const genreData = {
     fontFamily: "'Josefin Sans', sans-serif",
   },
   Adventure: {
-    background: "#109648",
+    // background: "#00650c",
     icon: faDungeon,
     color: "#BCD4DE",
+    // color: "#00650c",
+    // color: "",
     fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
   },
   Animation: {
@@ -104,8 +106,10 @@ const genreData = {
     icon: faHeart,
   },
   "Science Fiction": {
-    background: "#FFF689",
-    color: "#58355E",
+    // background: "#FFF689",
+    background: "#00650c",
+    // color: "#58355E",
+    color: "#b11eeb",
     icon: faHatWizard,
     fontSize: "",
   },
