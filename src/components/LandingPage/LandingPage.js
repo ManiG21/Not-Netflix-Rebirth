@@ -35,7 +35,6 @@ const genreData = {
     icon: faDungeon,
     color: "#BCD4DE",
     // color: "#00650c",
-    // color: "",
     fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
   },
   Animation: {
