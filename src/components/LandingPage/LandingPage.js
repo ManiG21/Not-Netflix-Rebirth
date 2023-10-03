@@ -133,6 +133,7 @@ const genreData = {
     icon: faHorse,
   },
 };
+
 export default function LandingPage(props) {
   console.log("landingPage.", props.genres);
   return (
