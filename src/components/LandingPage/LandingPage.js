@@ -1,6 +1,6 @@
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import {
-    faBomb,
+  faBomb,
   faBookOpen,
   faChildren,
   faCouch,
@@ -22,6 +22,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import "../LandingPage/LandingPage.css";
+
 const genreData = {
   Action: {
     background: "#090446",
@@ -65,7 +66,7 @@ const genreData = {
     color: "#6B0504",
     icon: faMasksTheater,
     fontFamily: "'Rubik Dirt', cursive"
-    
+
   },
   Family: {
     background: "#C9E4CA",
@@ -119,7 +120,7 @@ const genreData = {
   Thriller: {
     background: "#320E3B",
     color: "green",
-    icon: faHippo, 
+    icon: faHippo,
   },
   War: {
     background: "#6B0504",
