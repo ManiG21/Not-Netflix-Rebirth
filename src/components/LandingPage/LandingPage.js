@@ -32,9 +32,9 @@ const genreData = {
   },
   Adventure: {
     // background: "#00650c",
+    // color: "#00650c",
     icon: faDungeon,
     color: "#BCD4DE",
-    // color: "#00650c",
     fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
   },
   Animation: {
