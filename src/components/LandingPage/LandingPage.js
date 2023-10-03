@@ -117,11 +117,11 @@ const genreData = {
     color: "white",
     icon: faCouch,
   },
-  // Thriller: {
-  //   background: "#320E3B",
-  //   color: "green",
-  //   icon: faHippo, 
-  // },
+  Thriller: {
+    background: "#320E3B",
+    color: "green",
+    icon: faHippo, 
+  },
   War: {
     background: "#6B0504",
     color: "#FFFBFC",
