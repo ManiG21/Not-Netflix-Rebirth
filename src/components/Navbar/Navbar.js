@@ -30,16 +30,18 @@ export default function Navbar() {
 // to a different  page without having to change url or refresh page 
     return <div className="navbar">
        {/* the logo  */}
+       {/* <div className='nav'> */}
+        {/* when logo is clicked it takes user back to landing page where category boxes are displayed  */}
+        <div className='searchBar'> 
         <Link to='/'>
             <img id='logo1' src={Logo} />
         </Link> 
-        {/* when logo is clicked it takes user back to landing page where category boxes are displayed  */}
-        <div className='searchBar'> 
             {/* <Link to='/Home'>LandingPage</Link> */}
              {/* code for the search bar  */}
             <input value={search} onChange={handleChange}></input>
             {/*created a button 'search' */}
             <button onClick={handleSubmit}>search</button>
+            {/* </div> */}
         </div>
     </div>
     // divs in order to divde and be able to target specific parts for styling
