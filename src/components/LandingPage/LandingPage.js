@@ -148,7 +148,7 @@ export default function LandingPage(props) {
                 className="icon"
               />
             )}
-            <div>{genre.name}</div>
+            <div className="genre">{genre.name}</div>
           </div>
         </Link>
       ))}

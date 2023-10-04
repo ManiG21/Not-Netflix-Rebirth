@@ -38,6 +38,9 @@
   box-shadow: 5px 5px 5px 5px #c4aead;
 }
 
+.genre {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .icon {
   height: 70px;
   color: #c4aead;
