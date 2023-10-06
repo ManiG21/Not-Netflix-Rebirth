@@ -45,6 +45,7 @@
   height: 70px;
   /* color: #c4aead; */
 }
+
 .container {
   display: flex;
   flex-direction: column;
