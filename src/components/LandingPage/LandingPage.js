@@ -45,6 +45,7 @@ const genreData = {
   },
   Comedy: {
     background: "orange",
+    background: "#FFE14D",
     color: "#7F6A93",
     icon: faLaughWink,
     fontFamily: "fantasy"
