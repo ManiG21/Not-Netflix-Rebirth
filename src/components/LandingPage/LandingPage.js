@@ -32,8 +32,10 @@ const genreData = {
   },
   Adventure: {
     // background: "#00650c",
-    background: "#F6F7EB",
-    color: "#E94F37",
+    // background: "#F6F7EB",
+    // color: "#E94F37",
+    background: "#E94F37" ,
+    color: "#F6F7EB",
     // color: "#00650c",
     icon: faDungeon,
     // color: "#BCD4DE",
@@ -46,9 +48,11 @@ const genreData = {
     fontFamily: "'Comic Neue', cursive",
   },
   Comedy: {
-    background: "orange",
-    background: "#FFE14D",
-    color: "#7F6A93",
+    // background: "orange",
+    // background: "#FFE14D",
+    // color: "#7F6A93",
+    background: "#7F6A93",
+    color:  "#FFE14D",
     icon: faLaughWink,
     fontFamily: "fantasy"
   },
