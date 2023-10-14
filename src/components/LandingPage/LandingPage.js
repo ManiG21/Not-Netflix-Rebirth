@@ -84,7 +84,8 @@ const genreData = {
   Family: {
     background: "#C9E4CA",
     color: "#55828B",
-    icon: faChildren,
+    // icon: faChildren,
+    icon: faPeopleRoof,
   },
   Fantasy: {
     background: "#35605A",
@@ -126,7 +127,7 @@ const genreData = {
     color: "black",
     // icon: faHatWizard,
     icon: faFlaskVial,
-    fontSize: "",
+    fontSize: "47px",
   },
   "TV Movie": {
     background: "grey",
