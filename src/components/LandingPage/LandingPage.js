@@ -12,8 +12,6 @@ import {
   faDragon,
   faDungeon,
   faExplosion,
-  faHatWizard,
-  faHippo,
   faHorse,
   faLaughWink,
   faMagnifyingGlass,
@@ -36,11 +34,8 @@ const genreData = {
   },
   Adventure: {
     // background: "#00650c",
-    // background: "#F6F7EB",
-    // color: "#E94F37",
     background: "#E94F37" ,
     color: "#F6F7EB",
-    // color: "#00650c",
     icon: faDungeon,
     // color: "#BCD4DE",
     fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
@@ -83,7 +78,6 @@ const genreData = {
   Family: {
     background: "#C9E4CA",
     color: "#55828B",
-    // icon: faChildren,
     icon: faPeopleRoof,
   },
   Fantasy: {
