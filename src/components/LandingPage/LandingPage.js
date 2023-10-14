@@ -1,5 +1,6 @@
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import {
+  fapersonrunning,
   faBomb,
   faBookOpen,
   faChildren,
@@ -56,8 +57,10 @@ const genreData = {
     fontFamily: "fantasy"
   },
   Crime: {
-    background: "#000000",
-    color: "#F9C22E",
+    // background: "#000000",
+    // color: "#F9C22E",
+    background:"#F9C22E" ,
+    color:  "#000000",
     icon: faCrow,
     fontFamily: "'Caveat', cursive;"
   },
