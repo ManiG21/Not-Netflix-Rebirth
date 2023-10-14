@@ -129,7 +129,6 @@ const genreData = {
   Thriller: {
     background: "#320E3B",
     color: "green",
-    // icon: faHippo,
     icon: faPersonRunning,
     
   },
