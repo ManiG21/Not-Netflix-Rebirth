@@ -48,7 +48,6 @@ const genreData = {
     fontFamily: "'Comic Neue', cursive",
   },
   Comedy: {
-    // background: "orange",
     // background: "#FFE14D",
     // color: "#7F6A93",
     background: "#7F6A93",
