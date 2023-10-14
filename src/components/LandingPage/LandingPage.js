@@ -124,7 +124,7 @@ const genreData = {
     // color: "#b11eeb",
     color: "black",
     icon: faHatWizard,
-    icon: faHatWizard,
+    icon: faFlaskVial,
     fontSize: "",
   },
   "TV Movie": {
