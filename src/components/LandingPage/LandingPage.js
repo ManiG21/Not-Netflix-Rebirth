@@ -123,7 +123,7 @@ const genreData = {
     background: "#00650c",
     // color: "#b11eeb",
     color: "black",
-    icon: faHatWizard,
+    // icon: faHatWizard,
     icon: faFlaskVial,
     fontSize: "",
   },
