@@ -1,6 +1,9 @@
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import {
-  fapersonrunning,
+  // Ask Abe about importing new Icon for Thriller (running) Why it needs Camel Case
+  faPersonRunning,
+  faSkullCrossbones,
+  faFlaskVial,
   faBomb,
   faBookOpen,
   faChildren,
@@ -96,6 +99,7 @@ const genreData = {
     background: "#A3320B",
     color: "#23231A",
     icon: faSkull,
+    // icon: faSkullCrossbones,
     fontFamily: "'Permanent Marker', cursive"
   },
   Music: {
@@ -120,6 +124,7 @@ const genreData = {
     // color: "#b11eeb",
     color: "black",
     icon: faHatWizard,
+    icon: faHatWizard,
     fontSize: "",
   },
   "TV Movie": {
@@ -130,7 +135,9 @@ const genreData = {
   Thriller: {
     background: "#320E3B",
     color: "green",
-    icon: faHippo,
+    // icon: faHippo,
+    icon: faPersonRunning,
+    
   },
   War: {
     background: "#6B0504",
