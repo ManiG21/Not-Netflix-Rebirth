@@ -7,13 +7,11 @@
 }
 
 
-.searchBar input{
-
+.searchBar input {
     margin-left: auto;
     margin-top: 120px;
     height: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 } 
 
 .searchBar button {
