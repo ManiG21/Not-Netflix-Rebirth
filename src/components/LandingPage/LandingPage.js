@@ -1,7 +1,8 @@
-import { faHeart } from "@fortawesome/free-regular-svg-icons";
+// import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import {
   // Ask Abe about importing new Icon for Thriller (running) Why it needs Camel Case
   faPersonRunning,
+  faHeart,
   faSkullCrossbones,
   faPeopleRoof,
   faFlaskVial,
@@ -27,9 +28,11 @@ import "../LandingPage/LandingPage.css";
 
 const genreData = {
   Action: {
-    background: "#090446",
+    // background: "#090446",
+    // color: "#8AF3FF",
+    background:  "#8AF3FF",
+    color: "#090446",
     icon: faExplosion,
-    color: "#8AF3FF",
     fontFamily: "'Josefin Sans', sans-serif",
   },
   Adventure: {
@@ -64,7 +67,9 @@ const genreData = {
   },
   Documentary: {
     background: "#cd853f",
-    color: "#412234",
+    // color: "#412234",
+    // color: "#F5E5FC",
+    color: "#861388",
     icon: faVideoCamera,
     fontFamily: "Cambria, Cochin, Georgia, 'Times New Roman', serif"
   },
@@ -81,13 +86,20 @@ const genreData = {
     icon: faPeopleRoof,
   },
   Fantasy: {
-    background: "#35605A",
-    color: "#DF2935",
+    // background: "#35605A",
+    // color: "#DF2935",
+    background: "#2D7DD2",
+    color: "#97CC04",
     icon: faDragon,
   },
   History: {
-    background: "#9F7833",
-    color: "#BEE7B8",
+    // background: "#2D3142",
+    // color: "#9F7833" ,
+    background:  "#9F7833" ,
+    // color: "#2D3142",
+    color: "#2D3142",
+    // color: "#05668D",
+    // background: "#05668D",
     icon: faBookOpen,
   },
   Horror: {
@@ -95,21 +107,31 @@ const genreData = {
     color: "#23231A",
     icon: faSkull,
     // icon: faSkullCrossbones,
+    // fontSize: "65px",
     fontFamily: "'Permanent Marker', cursive"
   },
   Music: {
-    background: "#16F4D0",
-    color: "black",
+    // background: "#16F4D0",
+    // color: "black",
+    background: "#8B95C9",
+    color:  "#16F4D0",
     icon: faMusic,
   },
   Mystery: {
-    background: "#6A5D7B",
-    color: "#F9ADA0",
+    // background: "#6A5D7B",
+    // color: "#F9ADA0",
+    // background: "#A69658",
+    // color: "#795C5F",
+    // background:  "#795C5F",
+    background:  "#472836",
+    color: "#A69658",
     icon: faMagnifyingGlass,
   },
   Romance: {
-    background: "#A30015",
-    color: "#C2AFF0",
+    // background: "#A30015",
+    // color: "#C2AFF0",
+    background: "#C2AFF0",
+    color: "#A30015",
     icon: faHeart,
   },
   "Science Fiction": {
@@ -117,13 +139,17 @@ const genreData = {
     // color: "#58355E",
     background: "#00650c",
     // color: "#b11eeb",
-    color: "black",
+    // color: "black",
+    color: "#91C499",
     icon: faFlaskVial,
     fontSize: "47px",
   },
   "TV Movie": {
-    background: "grey",
-    color: "white",
+    background: "#8C8C8C",
+    // color: "white",
+    // color: "#A53860",
+    // color: "#071E22",
+    color: "#32021F",
     icon: faCouch,
   },
   Thriller: {
@@ -134,12 +160,17 @@ const genreData = {
   },
   War: {
     background: "#6B0504",
-    color: "#FFFBFC",
+    color: "#4A5859",
+    // background:  "#4A5859",
+    // color: "#6B0504",
+    // color: "#FFFBFC",
     icon: faBomb
   },
   Western: {
-    background: "#FFFBFC",
-    color: "#754043",
+    // background: "#FFFBFC",
+    // color: "#754043",
+    background: "#B89685",
+    color: "#754043" ,
     icon: faHorse,
   },
 };
