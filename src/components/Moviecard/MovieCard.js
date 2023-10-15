@@ -12,10 +12,6 @@ export default function MovieCard({movie}) {
                < MovieImage className= "movieImage" movie = {movie} />   
              
 
-
-               
-             
-
             </div>
         </Link>
     );
