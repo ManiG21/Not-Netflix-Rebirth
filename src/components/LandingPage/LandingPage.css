@@ -24,19 +24,19 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 20px;
-  /* -webkit-box-shadow: 1px 5px 11px 10px rgba(163, 22, 33, 0.57),
+  -webkit-box-shadow: 1px 5px 11px 10px rgba(163, 22, 33, 0.57),
     inset 1px 5px 20px 15px #053c5e,
     inset 1px 5px 50px 11px rgba(5, 60, 94, 0.39),
-    inset 1px 5px 50px 11px rgba(5, 60, 94, 0.39); */
-  /* box-shadow: 1px 5px 11px 10px rgba(163, 22, 33, 0.57),
+    inset 1px 5px 50px 11px rgba(5, 60, 94, 0.39);
+  box-shadow: 1px 5px 11px 10px rgba(163, 22, 33, 0.57),
     inset 1px 5px 20px 15px #053c5e,
     inset 1px 5px 50px 11px rgba(5, 60, 94, 0.39),
-    inset 1px 5px 50px 11px rgba(5, 60, 94, 0.39); */
-  /* -webkit-box-shadow: 1px 2px 15px 2px #a31621, inset 1px 2px 15px 2px #053c5e,
+    inset 1px 5px 50px 11px rgba(5, 60, 94, 0.39);
+  -webkit-box-shadow: 1px 2px 15px 2px #a31621, inset 1px 2px 15px 2px #053c5e,
     inset 1px 2px 15px 2px #053c5e;
   box-shadow: 1px 2px 15px 2px #a31621, inset 1px 2px 15px 2px #053c5e,
     inset 1px 2px 15px 2px #053c5e;
-  background: #a4a4a4; */
+  background: #a4a4a4;
 
   /* box-shadow: 5px 5px 5px 5px #c4aead; */
 }
