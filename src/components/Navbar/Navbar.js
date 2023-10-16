@@ -40,7 +40,7 @@ export default function Navbar() {
              {/* code for the search bar  */}
             <input value={search} onChange={handleChange}></input>
             {/*created a button 'search' */}
-            <button onClick={handleSubmit}>search</button>
+            <button onClick={handleSubmit}>Search</button>
             {/* </div> */}
         </div>
     </div>

@@ -27,7 +27,7 @@ h2 {
 .single-movie-container .description {
     width: 700px;
     padding: 50px;
-    text-shadow: 2px 0px black;
+    text-shadow: 1px 0px black;
 }
 
 .single-movie-container p {
