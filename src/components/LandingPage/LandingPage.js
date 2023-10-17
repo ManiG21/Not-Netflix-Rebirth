@@ -178,6 +178,8 @@ const genreData = {
 export default function LandingPage(props) {
   console.log("landingPage.", props.genres);
   return (
+    <div>
+    <div><header>Movies & More</header></div>
     <div className="genreGrid">
       {props.genres?.map((genre) => (
         <Link style={genreData[genre.name]} to={`/genre/${genre.id}`}>
@@ -192,6 +194,7 @@ export default function LandingPage(props) {
           </div>
         </Link>
       ))}
+      </div>
     </div>
   );
 }

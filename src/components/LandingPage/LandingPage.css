@@ -1,11 +1,17 @@
  /* #edcbb1 */
+header {
+  font-size: 75px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 .genreGrid {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  grid-gap: 30px;
-  padding-top: 30px;
-  padding-left: 30px;
+  grid-gap: 50px;
+  padding: 60px;
   background-color: black;
 }
 
@@ -43,12 +49,13 @@
 
 
 /* Ask Abe About why the border is going around the complete thing */
-/* .genreGrid a :hover {
-  box-shadow: 5px 5px 5px #c4aead;
+.genreGrid a:hover {
+  /* box-shadow: 5px 5px 5px #c4aead; */
   border: 7px solid #c4aead;
+  box-sizing: border-box;
 
 
-} */
+}
 .genre {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
