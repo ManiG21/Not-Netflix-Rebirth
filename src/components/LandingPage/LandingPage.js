@@ -29,19 +29,15 @@ import "../LandingPage/LandingPage.css";
 
 const genreData = {
   Action: {
-    // background: "#090446",
-    // color: "#8AF3FF",
     background:  "#8AF3FF",
     color: "#090446",
     icon: faExplosion,
     fontFamily: "'Josefin Sans', sans-serif",
   },
   Adventure: {
-    // background: "#00650c",
     background: "#E94F37" ,
     color: "#F6F7EB",
     icon: faDungeon,
-    // color: "#BCD4DE",
     fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
   },
   Animation: {
@@ -51,16 +47,12 @@ const genreData = {
     fontFamily: "'Comic Neue', cursive",
   },
   Comedy: {
-    // background: "#FFE14D",
-    // color: "#7F6A93",
     background: "#7F6A93",
     color:  "#FFE14D",
     icon: faLaughWink,
     fontFamily: "fantasy"
   },
   Crime: {
-    // background: "#000000",
-    // color: "#F9C22E",
     background:"#F9C22E" ,
     color:  "#000000",
     icon: faCrow,
@@ -85,20 +77,13 @@ const genreData = {
     icon: faPeopleRoof,
   },
   Fantasy: {
-    // background: "#35605A",
-    // color: "#DF2935",
     background: "#2D7DD2",
     color: "#97CC04",
     icon: faDragon,
   },
   History: {
-    // background: "#2D3142",
-    // color: "#9F7833" ,
     background:  "#9F7833" ,
-    // color: "#2D3142",
     color: "#2D3142",
-    // color: "#05668D",
-    // background: "#05668D",
     icon: faBookOpen,
   },
   Horror: {
@@ -118,15 +103,11 @@ const genreData = {
     icon: faMagnifyingGlass,
   },
   Romance: {
-    // background: "#A30015",
-    // color: "#C2AFF0",
     background: "#C2AFF0",
     color: "#A30015",
     icon: faHeart,
   },
   "Science Fiction": {
-    // background: "#FFF689",
-    // color: "#58355E",
     background: "#00650c",
     // color: "#b11eeb",
     // color: "black",
