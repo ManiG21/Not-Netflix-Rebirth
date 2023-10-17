@@ -6,7 +6,7 @@ import { getDataApi } from '../../network-requests';
 
 
 
-export default function Categorybox() {
+export default function Categorybox({genres}) {
     let { id } = useParams();
     const [moviesList, setMoviesList] = useState();
 
@@ -18,7 +18,9 @@ export default function Categorybox() {
     }, []);
 
     return  <div className="categorybox">
-        <MovieList moviesList= {moviesList}/>
+      <header>{genres?.find(genre => genre.id === id)?.name}</header>
+      <MovieList moviesList= {moviesList}/>
+
 
 
     </div>

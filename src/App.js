@@ -28,7 +28,7 @@ function App() {
         <Route path="/" element = {<LandingPage genres={genres}/>}/>
         <Route path="/movie/:id" element = {<SingleMovie/>}/>
         <Route path ="/search" element ={<SearchResults/>}/>
-        <Route path ="/genre/:id" element ={<Categorybox/>}/>
+        <Route path ="/genre/:id" element ={<Categorybox genres={genres}/>}/>
 
       </Routes>
       
