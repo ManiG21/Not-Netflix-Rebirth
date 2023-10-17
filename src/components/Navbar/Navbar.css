@@ -1,5 +1,7 @@
 .searchBar{
    display:flex;
+   /* position: sticky; */
+
 }
 
 
@@ -26,7 +28,6 @@
 }
 
 .navbar {
-  position: sticky;
   background-color: #edcbb1;
   border: 4px solid black;
   box-shadow: 0 0 10px black;
