@@ -1,4 +1,5 @@
 // import { faHeart } from "@fortawesome/free-regular-svg-icons";
+import Home from "./Home.jpg"
 import {
   // Ask Abe about importing new Icon for Thriller (running) Why it needs Camel Case
   faPersonRunning,
@@ -179,7 +180,10 @@ export default function LandingPage(props) {
   console.log("landingPage.", props.genres);
   return (
     <div>
-    <div><header>Movies & More</header></div>
+    <div>
+      <header>Movies & More</header>
+      <img className="home" src= {Home}></img>
+    </div>
     <div className="genreGrid">
       {props.genres?.map((genre) => (
         <Link style={genreData[genre.name]} to={`/genre/${genre.id}`}>
