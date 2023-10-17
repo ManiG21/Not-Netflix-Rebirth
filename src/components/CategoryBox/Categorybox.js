@@ -18,7 +18,7 @@ export default function Categorybox({genres}) {
     }, []);
 
     return  <div className="categorybox">
-      <header>{genres?.find(genre => genre.id === id)?.name}</header>
+      <header>{genres?.find(genre => genre.id == id)?.name}</header>
       <MovieList moviesList= {moviesList}/>
 
 

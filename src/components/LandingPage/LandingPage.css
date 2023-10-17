@@ -16,7 +16,9 @@ header {
   grid-template-columns: auto auto auto auto auto;
   grid-gap: 50px;
   padding: 60px;
-  background-color: black;
+  /* background-color: black; */
+  background:  #053C5E;
+  
 }
 
 .genreGrid a {

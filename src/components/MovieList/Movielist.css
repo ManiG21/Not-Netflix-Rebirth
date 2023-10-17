@@ -1,5 +1,7 @@
 .movieListContainer{ 
-    background:black;
+    /* background:black; */
+    /* background: #053C5E; */
+    /* background:#A31621; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
