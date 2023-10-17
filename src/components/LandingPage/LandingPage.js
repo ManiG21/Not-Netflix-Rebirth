@@ -147,9 +147,6 @@ const genreData = {
   },
   "TV Movie": {
     background: "#8C8C8C",
-    // color: "white",
-    // color: "#A53860",
-    // color: "#071E22",
     color: "#32021F",
     icon: faCouch,
   },
@@ -162,9 +159,6 @@ const genreData = {
   War: {
     background: "#6B0504",
     color: "#4A5859",
-    // background:  "#4A5859",
-    // color: "#6B0504",
-    // color: "#FFFBFC",
     icon: faBomb
   },
   Western: {
