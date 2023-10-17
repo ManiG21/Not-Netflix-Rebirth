@@ -68,8 +68,6 @@ const genreData = {
   },
   Documentary: {
     background: "#cd853f",
-    // color: "#412234",
-    // color: "#F5E5FC",
     color: "#861388",
     icon: faVideoCamera,
     fontFamily: "Cambria, Cochin, Georgia, 'Times New Roman', serif"
@@ -107,23 +105,14 @@ const genreData = {
     background: "#A3320B",
     color: "#23231A",
     icon: faSkull,
-    // icon: faSkullCrossbones,
-    // fontSize: "65px",
     fontFamily: "'Permanent Marker', cursive"
   },
   Music: {
-    // background: "#16F4D0",
-    // color: "black",
     background: "#8B95C9",
     color:  "#16F4D0",
     icon: faMusic,
   },
   Mystery: {
-    // background: "#6A5D7B",
-    // color: "#F9ADA0",
-    // background: "#A69658",
-    // color: "#795C5F",
-    // background:  "#795C5F",
     background:  "#472836",
     color: "#A69658",
     icon: faMagnifyingGlass,
