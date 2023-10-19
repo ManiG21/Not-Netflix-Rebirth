@@ -19,7 +19,6 @@ h2 {
 .single-movie-container {
     display: flex;
     padding: 20px;
-    
 }
 
 .single-movie-container .description {
