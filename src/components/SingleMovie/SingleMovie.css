@@ -18,9 +18,9 @@ h2 {
 /* I had to put all the items in a container to adjust their position */
 .single-movie-container {
     display: flex;
-    /* justify-content: center; */
     padding: 20px;
-
+    /* background: #053C5E; */
+    
 }
 
 .single-movie-container .description {
