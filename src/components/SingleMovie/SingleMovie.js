@@ -2,7 +2,6 @@ import './SingleMovie.css';
 import { useEffect, useState } from 'react';
 import { getDataApi, MovieImage } from '../../network-requests';
 import { useParams } from "react-router-dom";
-// import logo2 from './Logo2.gif';
 
 export default function SingleMovie(props) {
   const [movie, setMovie] = useState(props.movie)
@@ -10,7 +9,7 @@ export default function SingleMovie(props) {
   const movieTrailerId = '1mTjfMFyPi8'
   console.log(video)
   console.log(movie)
-  
+
   // run this only when component first hits the page
   let { id } = useParams();
   useEffect(() => {
