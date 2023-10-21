@@ -15,7 +15,6 @@ export default function SingleMovie(props) {
   useEffect(() => {
     // if (movie) return
     // Get movie with onclick?
-
     getDataApi(`movie/${id}`)
       .then(res => setMovie(res))
   }, [])
