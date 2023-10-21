@@ -10,7 +10,8 @@ export default function SingleMovie(props) {
   const movieTrailerId = '1mTjfMFyPi8'
   console.log(video)
   console.log(movie)
-  //run this only when component first hits the page
+  
+  // run this only when component first hits the page
   let { id } = useParams();
   useEffect(() => {
     // if (movie) return
