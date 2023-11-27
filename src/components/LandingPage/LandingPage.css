@@ -80,5 +80,70 @@ header {
 }
 
 @media (max-width: 1170px) {
- 
+  /* #menu-icon {
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 270px;
+    height: 100vh;
+    background: #002765;
+    padding: 20px 15px;
+    gap: 0.5rem;
+    text-align: left;
+    transition: all .50s ease;
+}
+
+.navbar a {
+    display: block;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.navbar.open {
+    right: 0;
+} */
+
+:root {
+    --h1-font: 4rem;
+    --h2-font: 2rem;
+    --p-font: 1rem;
+}
+
+.home {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    height: 125vh;
+}
+
+.home form {
+    margin-right: 200px;
+ }
+
+.home-text {
+    order: 2;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+}
+
+.home-img {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.home form {
+   margin-left: 220px;
+}
+
+.about {
+    grid-template-columns: 1fr;
+}
 }
