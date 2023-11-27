@@ -4,7 +4,6 @@ import {
   // Ask Abe about importing new Icon for Thriller (running) Why it needs Camel Case
   faPersonRunning,
   faHeart,
-  faSkullCrossbones,
   faPeopleRoof,
   faFlaskVial,
   faBomb,
