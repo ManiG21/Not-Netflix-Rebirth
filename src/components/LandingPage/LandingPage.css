@@ -108,7 +108,4 @@ header {
 .navbar.open {
     right: 0;
 } */
-.about {
-    grid-template-columns: 1fr;
-}
 }

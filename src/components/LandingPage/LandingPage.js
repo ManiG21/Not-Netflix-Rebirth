@@ -132,8 +132,6 @@ const genreData = {
     icon: faBomb
   },
   Western: {
-    // background: "#FFFBFC",
-    // color: "#754043",
     background: "#B89685",
     color: "#754043" ,
     icon: faHorse,
