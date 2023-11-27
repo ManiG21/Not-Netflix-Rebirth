@@ -109,17 +109,6 @@ header {
     right: 0;
 } */
 
-.home form {
-    margin-right: 200px;
- }
-
-.home-text {
-    order: 2;
-    width: 100%;
-    max-width: 900px;
-    text-align: center;
-}
-
 .home-img {
     width: 500px;
     height: 500px;
