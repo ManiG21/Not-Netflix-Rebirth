@@ -1,7 +1,7 @@
 // import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Home from "./Home.jpg"
 import {
-  // Ask Abe about importing new Icon for Thriller (running) Why it needs Camel Case
+  // Ask Abe about importing new Icon for Thriller  Why it needs Camel Case
   faPersonRunning,
   faHeart,
   faPeopleRoof,
