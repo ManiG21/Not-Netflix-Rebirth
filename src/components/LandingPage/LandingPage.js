@@ -109,7 +109,7 @@ const genreData = {
   "Science Fiction": {
     background: "#00650c",
     // color: "#b11eeb",
-    // color: "black",
+
     color: "#91C499",
     icon: faFlaskVial,
     fontSize: "47px",
