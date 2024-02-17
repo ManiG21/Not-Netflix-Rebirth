@@ -9,6 +9,8 @@ header {
 
 .home {
   height: 500px;
+  margin-left: 465px;
+  margin-bottom: 30px;
 }
 
 .genreGrid {
