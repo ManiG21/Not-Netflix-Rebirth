@@ -59,9 +59,8 @@ header {
   /* box-shadow: 5px 5px 5px #c4aead; */
   border: 7px solid #c4aead;
   box-sizing: border-box;
-
-
 }
+
 .genre {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -70,7 +69,6 @@ header {
   height: 75px;
   /* color: #c4aead; */
 }
-
 
 .container {
   display: flex;
