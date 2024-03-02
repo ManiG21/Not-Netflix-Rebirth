@@ -36,6 +36,7 @@ header {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 20px;
+  
   /* -webkit-box-shadow: 1px 5px 11px 10px rgba(163, 22, 33, 0.57),
     inset 1px 5px 20px 15px #053c5e,
     inset 1px 5px 50px 11px rgba(5, 60, 94, 0.39),
@@ -52,7 +53,6 @@ header {
 
   /* box-shadow: 5px 5px 5px 5px #c4aead; */
 }
-
 
 /* Ask Abe About why the border is going around the complete thing */
 .genreGrid a:hover {
