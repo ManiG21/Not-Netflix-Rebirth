@@ -1,4 +1,4 @@
-// import { faHeart } from "@fortawesome/free-regular-svg-icons";
+
 import Home from "./Home.jpg"
 import {
   faPersonRunning,
