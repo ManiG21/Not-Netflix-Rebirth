@@ -57,6 +57,7 @@ header {
 }
 
 /* Ask Abe About why the border is going around the complete thing */
+
 .genreGrid a:hover {
   /* box-shadow: 5px 5px 5px #c4aead; */
   border: 7px solid #c4aead;
@@ -82,6 +83,7 @@ header {
   /* #menu-icon {
     display: block;
 }
+
 .navbar {
     display: flex;
     flex-direction: column;
